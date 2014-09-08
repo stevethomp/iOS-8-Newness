@@ -1,4 +1,4 @@
-#iOS 8:  
+#iOS 8 & Xcode 6:  
 ######the little things
 
 ---
@@ -58,16 +58,33 @@ Where did UIAlertView go?
 
 ---
 
-Asset libraries: pdf, vector, jpeg
-
----
-
 #Open settings URL
 ```objectivec
 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
 ```
 
 UIApplicationOpenSettingsURLString
+
+---
+
+#Now, Xcode!
+
+---
+
+Asset libraries: pdf, vector, jpeg
+
+---
+Xcode 6 lets you search within storyboards, and will highlight matches in the storyboard, and opens the hierarchy to the right point
+
+image names, and button labels, text, also custom classes
+
+---
+
+Also, global search includes storyboards
+
+---
+
+Blocks debugging
 
 ---
 
