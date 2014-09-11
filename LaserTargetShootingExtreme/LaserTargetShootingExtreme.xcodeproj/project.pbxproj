@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0D7FB2019BE93B1008A560D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7FB1F19BE93B1008A560D /* main.m */; };
+		B0D7FB2319BE93B1008A560D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7FB2219BE93B1008A560D /* AppDelegate.m */; };
+		B0D7FB2619BE93B1008A560D /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7FB2519BE93B1008A560D /* GameScene.m */; };
+		B0D7FB2819BE93B1008A560D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0D7FB2719BE93B1008A560D /* GameScene.sks */; };
+		B0D7FB2B19BE93B1008A560D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7FB2A19BE93B1008A560D /* GameViewController.m */; };
+		B0D7FB2E19BE93B1008A560D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D7FB2C19BE93B1008A560D /* Main.storyboard */; };
+		B0D7FB3019BE93B1008A560D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D7FB2F19BE93B1008A560D /* Images.xcassets */; };
+		B0D7FB3C19BE93B1008A560D /* LaserTargetShootingExtremeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7FB3B19BE93B1008A560D /* LaserTargetShootingExtremeTests.m */; };
+		B0FA610419BE996E00624D95 /* UITouch+STRadiusTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA610319BE996E00624D95 /* UITouch+STRadiusTouch.m */; };
+		B0FA610919BE9C7100624D95 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0FA610719BE9C7100624D95 /* Explosion.sks */; };
+		B0FA610A19BE9C7100624D95 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FA610819BE9C7100624D95 /* spark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0D7FB3619BE93B1008A560D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D7FB1219BE93B1008A560D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D7FB1919BE93B1008A560D;
+			remoteInfo = LaserTargetShootingExtreme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0D7FB1A19BE93B1008A560D /* LaserTargetShootingExtreme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaserTargetShootingExtreme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D7FB1E19BE93B1008A560D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D7FB1F19BE93B1008A560D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0D7FB2119BE93B1008A560D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0D7FB2219BE93B1008A560D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0D7FB2419BE93B1008A560D /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B0D7FB2519BE93B1008A560D /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B0D7FB2719BE93B1008A560D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B0D7FB2919BE93B1008A560D /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B0D7FB2A19BE93B1008A560D /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B0D7FB2D19BE93B1008A560D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0D7FB2F19BE93B1008A560D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0D7FB3519BE93B1008A560D /* LaserTargetShootingExtremeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserTargetShootingExtremeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D7FB3A19BE93B1008A560D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D7FB3B19BE93B1008A560D /* LaserTargetShootingExtremeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaserTargetShootingExtremeTests.m; sourceTree = "<group>"; };
+		B0FA610219BE996E00624D95 /* UITouch+STRadiusTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITouch+STRadiusTouch.h"; sourceTree = "<group>"; };
+		B0FA610319BE996E00624D95 /* UITouch+STRadiusTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITouch+STRadiusTouch.m"; sourceTree = "<group>"; };
+		B0FA610719BE9C7100624D95 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		B0FA610819BE9C7100624D95 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0D7FB1719BE93B1008A560D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D7FB3219BE93B1008A560D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0D7FB1119BE93B1008A560D = {
+			isa = PBXGroup;
+			children = (
+				B0FA610719BE9C7100624D95 /* Explosion.sks */,
+				B0FA610819BE9C7100624D95 /* spark.png */,
+				B0D7FB1C19BE93B1008A560D /* LaserTargetShootingExtreme */,
+				B0D7FB3819BE93B1008A560D /* LaserTargetShootingExtremeTests */,
+				B0D7FB1B19BE93B1008A560D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0D7FB1B19BE93B1008A560D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7FB1A19BE93B1008A560D /* LaserTargetShootingExtreme.app */,
+				B0D7FB3519BE93B1008A560D /* LaserTargetShootingExtremeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0D7FB1C19BE93B1008A560D /* LaserTargetShootingExtreme */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7FB2119BE93B1008A560D /* AppDelegate.h */,
+				B0D7FB2219BE93B1008A560D /* AppDelegate.m */,
+				B0D7FB2419BE93B1008A560D /* GameScene.h */,
+				B0D7FB2519BE93B1008A560D /* GameScene.m */,
+				B0D7FB2719BE93B1008A560D /* GameScene.sks */,
+				B0D7FB2919BE93B1008A560D /* GameViewController.h */,
+				B0D7FB2A19BE93B1008A560D /* GameViewController.m */,
+				B0FA610219BE996E00624D95 /* UITouch+STRadiusTouch.h */,
+				B0FA610319BE996E00624D95 /* UITouch+STRadiusTouch.m */,
+				B0D7FB2C19BE93B1008A560D /* Main.storyboard */,
+				B0D7FB2F19BE93B1008A560D /* Images.xcassets */,
+				B0D7FB1D19BE93B1008A560D /* Supporting Files */,
+			);
+			path = LaserTargetShootingExtreme;
+			sourceTree = "<group>";
+		};
+		B0D7FB1D19BE93B1008A560D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7FB1E19BE93B1008A560D /* Info.plist */,
+				B0D7FB1F19BE93B1008A560D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0D7FB3819BE93B1008A560D /* LaserTargetShootingExtremeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7FB3B19BE93B1008A560D /* LaserTargetShootingExtremeTests.m */,
+				B0D7FB3919BE93B1008A560D /* Supporting Files */,
+			);
+			path = LaserTargetShootingExtremeTests;
+			sourceTree = "<group>";
+		};
+		B0D7FB3919BE93B1008A560D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7FB3A19BE93B1008A560D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0D7FB1919BE93B1008A560D /* LaserTargetShootingExtreme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D7FB3F19BE93B1008A560D /* Build configuration list for PBXNativeTarget "LaserTargetShootingExtreme" */;
+			buildPhases = (
+				B0D7FB1619BE93B1008A560D /* Sources */,
+				B0D7FB1719BE93B1008A560D /* Frameworks */,
+				B0D7FB1819BE93B1008A560D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaserTargetShootingExtreme;
+			productName = LaserTargetShootingExtreme;
+			productReference = B0D7FB1A19BE93B1008A560D /* LaserTargetShootingExtreme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0D7FB3419BE93B1008A560D /* LaserTargetShootingExtremeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D7FB4219BE93B1008A560D /* Build configuration list for PBXNativeTarget "LaserTargetShootingExtremeTests" */;
+			buildPhases = (
+				B0D7FB3119BE93B1008A560D /* Sources */,
+				B0D7FB3219BE93B1008A560D /* Frameworks */,
+				B0D7FB3319BE93B1008A560D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0D7FB3719BE93B1008A560D /* PBXTargetDependency */,
+			);
+			name = LaserTargetShootingExtremeTests;
+			productName = LaserTargetShootingExtremeTests;
+			productReference = B0D7FB3519BE93B1008A560D /* LaserTargetShootingExtremeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0D7FB1219BE93B1008A560D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Steven Thompson";
+				TargetAttributes = {
+					B0D7FB1919BE93B1008A560D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B0D7FB3419BE93B1008A560D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B0D7FB1919BE93B1008A560D;
+					};
+				};
+			};
+			buildConfigurationList = B0D7FB1519BE93B1008A560D /* Build configuration list for PBXProject "LaserTargetShootingExtreme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0D7FB1119BE93B1008A560D;
+			productRefGroup = B0D7FB1B19BE93B1008A560D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0D7FB1919BE93B1008A560D /* LaserTargetShootingExtreme */,
+				B0D7FB3419BE93B1008A560D /* LaserTargetShootingExtremeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0D7FB1819BE93B1008A560D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FA610A19BE9C7100624D95 /* spark.png in Resources */,
+				B0D7FB3019BE93B1008A560D /* Images.xcassets in Resources */,
+				B0FA610919BE9C7100624D95 /* Explosion.sks in Resources */,
+				B0D7FB2819BE93B1008A560D /* GameScene.sks in Resources */,
+				B0D7FB2E19BE93B1008A560D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D7FB3319BE93B1008A560D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0D7FB1619BE93B1008A560D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D7FB2B19BE93B1008A560D /* GameViewController.m in Sources */,
+				B0FA610419BE996E00624D95 /* UITouch+STRadiusTouch.m in Sources */,
+				B0D7FB2319BE93B1008A560D /* AppDelegate.m in Sources */,
+				B0D7FB2619BE93B1008A560D /* GameScene.m in Sources */,
+				B0D7FB2019BE93B1008A560D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D7FB3119BE93B1008A560D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D7FB3C19BE93B1008A560D /* LaserTargetShootingExtremeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0D7FB3719BE93B1008A560D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0D7FB1919BE93B1008A560D /* LaserTargetShootingExtreme */;
+			targetProxy = B0D7FB3619BE93B1008A560D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0D7FB2C19BE93B1008A560D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D7FB2D19BE93B1008A560D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0D7FB3D19BE93B1008A560D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0D7FB3E19BE93B1008A560D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0D7FB4019BE93B1008A560D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LaserTargetShootingExtreme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0D7FB4119BE93B1008A560D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LaserTargetShootingExtreme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0D7FB4319BE93B1008A560D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LaserTargetShootingExtremeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaserTargetShootingExtreme.app/LaserTargetShootingExtreme";
+			};
+			name = Debug;
+		};
+		B0D7FB4419BE93B1008A560D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LaserTargetShootingExtremeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaserTargetShootingExtreme.app/LaserTargetShootingExtreme";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0D7FB1519BE93B1008A560D /* Build configuration list for PBXProject "LaserTargetShootingExtreme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D7FB3D19BE93B1008A560D /* Debug */,
+				B0D7FB3E19BE93B1008A560D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D7FB3F19BE93B1008A560D /* Build configuration list for PBXNativeTarget "LaserTargetShootingExtreme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D7FB4019BE93B1008A560D /* Debug */,
+				B0D7FB4119BE93B1008A560D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D7FB4219BE93B1008A560D /* Build configuration list for PBXNativeTarget "LaserTargetShootingExtremeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D7FB4319BE93B1008A560D /* Debug */,
+				B0D7FB4419BE93B1008A560D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0D7FB1219BE93B1008A560D /* Project object */;
+}

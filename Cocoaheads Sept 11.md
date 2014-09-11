@@ -19,9 +19,7 @@
 
 
 ---
-#isOperatingSystemAtLeastVersion
-
-import Foundation
+#Checking your OS version
 
 let yosemite = NSOperatingSystemVersion(majorVersion: 10, minorVersion: 10, patchVersion: 0)
 NSProcessInfo().isOperatingSystemAtLeastVersion(yosemite) // false
@@ -46,7 +44,9 @@ use my custom switch
 
 ---
 
+Constraints:
 active constraints
+top, bottom, left, right margins
 
 ---
 
@@ -54,7 +54,13 @@ camera control
 
 ---
 
+UIAlertController
+
 Where did UIAlertView go?
+
+---
+
+UITraitCollection
 
 ---
 
@@ -88,9 +94,15 @@ Blocks debugging
 
 ---
 
+Async testing, and performance testing
+
+---
+
 #Thank you!
 
-Steven Thompson
-@stevethomp
+---
 
-https://github.com/stevethomp/iOS-8-Newness
+##Steven Thompson
+##@stevethomp
+
+	https://github.com/stevethomp/iOS-8-Newness
